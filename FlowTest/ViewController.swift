@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let book = Book()
+        print("title: \(book.title.description)")
+        if book.title != Book.default_title {
+            book.title = "New Title"
+        }
     }
 
 

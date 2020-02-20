@@ -15,6 +15,8 @@
 		439A825423FED93C00F9D394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439A825223FED93C00F9D394 /* LaunchScreen.storyboard */; };
 		439A825F23FED93C00F9D394 /* FlowTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A825E23FED93C00F9D394 /* FlowTestTests.swift */; };
 		439A826A23FED93C00F9D394 /* FlowTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A826923FED93C00F9D394 /* FlowTestUITests.swift */; };
+		439A827823FEDA9600F9D394 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A827723FEDA9600F9D394 /* Book.swift */; };
+		439A827923FEDD0C00F9D394 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A827723FEDA9600F9D394 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		439A826523FED93C00F9D394 /* FlowTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		439A826923FED93C00F9D394 /* FlowTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowTestUITests.swift; sourceTree = "<group>"; };
 		439A826B23FED93C00F9D394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439A827723FEDA9600F9D394 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				439A825023FED93C00F9D394 /* Assets.xcassets */,
 				439A825223FED93C00F9D394 /* LaunchScreen.storyboard */,
 				439A825523FED93C00F9D394 /* Info.plist */,
+				439A827723FEDA9600F9D394 /* Book.swift */,
 			);
 			path = FlowTest;
 			sourceTree = "<group>";
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439A827823FEDA9600F9D394 /* Book.swift in Sources */,
 				439A824C23FED93900F9D394 /* ViewController.swift in Sources */,
 				439A824823FED93900F9D394 /* AppDelegate.swift in Sources */,
 				439A824A23FED93900F9D394 /* SceneDelegate.swift in Sources */,
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439A827923FEDD0C00F9D394 /* Book.swift in Sources */,
 				439A825F23FED93C00F9D394 /* FlowTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
